@@ -1,6 +1,6 @@
 {
-  "name": "@yunfly/ts-node-dev",
-  "version": "0.0.1-beta.0",
+  "name": "@yunflyjs/ts-node-dev",
+  "version": "2.0.0",
   "fromVersion": "2.0.0",
   "description": "Compiles your TS app and restarts when files are modified.",
   "keywords": [
@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/whitecolor/ts-node-dev.git"
+    "url": "git+ssh://git@github.com/whitecolor/ts-node-dev.git"
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/yunflyjs"
+    "registry": "https://registry.npmjs.org"
   },
   "license": "MIT",
   "bin": {
@@ -99,5 +99,14 @@
   "np": {
     "yarn": false,
     "cleanup": false
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/whitecolor/ts-node-dev/issues"
+  },
+  "homepage": "https://github.com/whitecolor/ts-node-dev#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
