@@ -1,6 +1,6 @@
 {
   "name": "@yunfly/ts-node-dev",
-  "version": "2.0.0",
+  "version": "0.0.1-beta.0",
   "fromVersion": "2.0.0",
   "description": "Compiles your TS app and restarts when files are modified.",
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/yunflyjs"
   },
   "license": "MIT",
   "bin": {
