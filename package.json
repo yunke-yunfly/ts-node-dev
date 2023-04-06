@@ -14,6 +14,10 @@
     "type": "git",
     "url": "http://github.com/whitecolor/ts-node-dev.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "bin": {
     "ts-node-dev": "lib/bin.js",
